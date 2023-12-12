@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    padding: 15px;
+    margin: 0;
+}
+
+.column-title {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-right, .column-left {
+    width: 50%;
+    padding: 10px 20px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button {
+    background-color:#00ef0a; 
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.user-name {
+    background-color: #b0ffb3;
+}
+
+.user-message {
+    background-color: #c2fff9;
+}
